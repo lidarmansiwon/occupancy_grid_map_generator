@@ -1,11 +1,21 @@
 # occupancy_grid_map_generator
 
+This repository contains occupancy grid amp generator with lidar pointcloud.
+If you need it, you can modify the parameters and use them simply.
+
+### Dependencies
+
+- Ubuntu 20.04
+- ROS2(foxy)
+
 ![image](https://github.com/lidarmansiwon/occupancy_grid_map_generator/assets/117976120/f80b6317-41c4-4f63-9542-fc5a51d46d78)
 
 ```
 ros2 launch occupancy_grid_map_generator occupancy_grid_map_generator.launch.py
 ```
 
+
+### Parameter
 
 ```
 remappings=[('/filtered_points', points_topic)],
