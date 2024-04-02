@@ -7,7 +7,7 @@ ros2 launch occupancy_grid_map_generator occupancy_grid_map_generator.launch.py
 ```
 
 
-``
+```
 remappings=[('/filtered_points', points_topic)],
         parameters=[
             {"min_x_": -20.0},
