@@ -2,7 +2,11 @@
 
 ![image](https://github.com/lidarmansiwon/occupancy_grid_map_generator/assets/117976120/f80b6317-41c4-4f63-9542-fc5a51d46d78)
 
-''ros2 launch occupancy_grid_map_generator occupancy_grid_map_generator.launch.py''
+''
+ros2 launch occupancy_grid_map_generator occupancy_grid_map_generator.launch.py
+''
+
+
 ''       remappings=[('/filtered_points', points_topic)],
         parameters=[
             {"min_x_": -20.0},
