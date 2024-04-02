@@ -35,7 +35,7 @@ remappings=[('/filtered_points', points_topic)],
             {"boat_radius_": 2.0},
             {"boat_width_": 0.8},
             {"boat_height_": 2.0}
-        ] 
-        ```
+        ]
+```
 
         
