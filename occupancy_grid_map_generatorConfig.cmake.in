@@ -1,0 +1,14 @@
+# - Config file for the occupancy_grid_map_generator package
+# It defines the following variables
+#  occupancy_grid_map_generator_INCLUDE_DIRS - include directories for FooBar
+#  occupancy_grid_map_generator_LIBRARIES    - libraries to link against
+#  occupancy_grid_map_generator_EXECUTABLE   - the bar executable
+
+set(occupancy_grid_map_generator_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+include("${occupancy_grid_map_generator_DIR}/export_occupancy_grid_map_generator.cmake")
+
+# These are IMPORTED targets created by occupancy_grid_map_generatorTargets.cmake
+
+
